@@ -4,6 +4,12 @@
    <Group
       location = "group:MKBorderImageView"
       name = "MKBorderImageView">
+      <FileRef
+         location = "group:MKBorderImageView.h">
+      </FileRef>
+      <FileRef
+         location = "group:MKBorderImageView.m">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/Example.xcodeproj">

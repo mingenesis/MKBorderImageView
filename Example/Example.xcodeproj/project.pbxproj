@@ -13,6 +13,7 @@
 		4047B9401D26479800EF8782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4047B93E1D26479800EF8782 /* Main.storyboard */; };
 		4047B9421D26479800EF8782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4047B9411D26479800EF8782 /* Assets.xcassets */; };
 		4047B9451D26479800EF8782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4047B9431D26479800EF8782 /* LaunchScreen.storyboard */; };
+		4047B9541D264B6200EF8782 /* MKBorderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4047B9531D264B6200EF8782 /* MKBorderImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4047B9411D26479800EF8782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4047B9441D26479800EF8782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4047B9461D26479800EF8782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4047B9521D264B6200EF8782 /* MKBorderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBorderImageView.h; sourceTree = "<group>"; };
+		4047B9531D264B6200EF8782 /* MKBorderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBorderImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				4047B9341D26479800EF8782 /* Example */,
+				4047B94D1D264AE300EF8782 /* Vendor */,
 				4047B9331D26479800EF8782 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,24 @@
 				4047B9361D26479800EF8782 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4047B94D1D264AE300EF8782 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4047B94E1D264AF800EF8782 /* MKBorderImageView */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		4047B94E1D264AF800EF8782 /* MKBorderImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4047B9521D264B6200EF8782 /* MKBorderImageView.h */,
+				4047B9531D264B6200EF8782 /* MKBorderImageView.m */,
+			);
+			name = MKBorderImageView;
+			path = ../MKBorderImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +173,7 @@
 			files = (
 				4047B93D1D26479800EF8782 /* ViewController.m in Sources */,
 				4047B93A1D26479800EF8782 /* AppDelegate.m in Sources */,
+				4047B9541D264B6200EF8782 /* MKBorderImageView.m in Sources */,
 				4047B9371D26479800EF8782 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +323,7 @@
 				4047B94B1D26479800EF8782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
